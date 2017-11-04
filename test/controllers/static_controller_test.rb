@@ -9,7 +9,7 @@ class StaticControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get static_home_url
     assert_response :success
-    assert_select "title", "Home | #{@base_title}"
+    assert_select "title", "Travel for knowledge"
 
   end
 

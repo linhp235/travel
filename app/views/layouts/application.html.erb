@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= yield(:title) %> | Travel for knowledge</title>
+  <link data-turbolinks-track="true" href="/assets/application.css" media="all"
+rel="stylesheet" />
+    <title><%= full_title(yield(:title)) %></title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
